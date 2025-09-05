@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Dragon LINK (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Dragon LINK (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

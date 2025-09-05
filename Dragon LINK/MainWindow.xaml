@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Dragon_LINK.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Dragon_LINK"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Dragon LINK">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid>
+        <!-- Définir deux colonnes : gauche fixe, droite flexible -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <!-- section gauche -->
+            <ColumnDefinition Width="200"/>
+            <!-- section droite -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Section gauche -->
+        <StackPanel Grid.Column="0" Background="#FFEEEEEE" Padding="10" Spacing="10">
+            <Button Content="Bouton 1" Background="Navy"/>
+            <Button Content="Bouton 2" Background="Navy"/>
+            <Button Content="Bouton 3" Background="Navy"/>
+            <!-- Ajouter d'autres contrôles si besoin -->
+        </StackPanel>
+
+        <!-- Section droite -->
+        <Grid Grid.Column="1" Padding="10">
+            <!-- Rectangle en haut avec menu déroulant et bouton -->
+            <Border Background="#FFDDDDDD" CornerRadius="5" Padding="10" Height="100" VerticalAlignment="Top">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <!-- Menu déroulant -->
+                    <ComboBox x:Name="myComboBox" Width="150" Background="Navy">
+                        <ComboBoxItem Content="Option 1"/>
+                        <ComboBoxItem Content="Option 2"/>
+                        <ComboBoxItem Content="Option 3"/>
+                    </ComboBox>
+
+                    <!-- Bouton -->
+                    <Button Content="Valider" Click="Button_Click" Background="DarkBlue"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Contenu principal en dessous du rectangle -->
+            <StackPanel Margin="0,120,0,0">
+                <TextBlock Text="Contenu principal ici..." FontSize="18"/>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Bienvenue sur WinUI 3 🚀" FontSize="24"/>
+            <Button Content="Clique-moi" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
