@@ -1,0 +1,35 @@
+🌌 Couleurs principales (branding issues du logo)
+
+Primary : #022529 (bleu-noir pétrole, identité forte)
+
+Primary dark : #01171a (encore plus sombre, idéal en background profond)
+
+Primary light : #0a3a3f (dérivé plus clair, pour hover/états actifs)
+
+🌑 Fonds & surfaces
+
+Background : #0d1117 (noir bleuté, proche de GitHub dark mode, confortable pour l’œil)
+
+Surface / cartes : #161b22 (un peu plus clair, pour distinguer les panneaux ou widgets)
+
+Border / séparateurs : #30363d (gris foncé, pour structurer sans être trop visible)
+
+✍️ Texte
+
+Texte principal : #e6edf3 (gris très clair, quasi blanc, lisible sur fond sombre)
+
+Texte secondaire : #9da7b3 (gris moyen, pour infos secondaires)
+
+Texte désactivé : #6e7681 (gris atténué)
+
+💡 Couleurs d’accent
+
+Ces couleurs ne sont pas dans ton logo, mais elles vont apporter de la vie et guider l’utilisateur :
+
+Accent action (boutons, highlights) : #00b8d9 (cyan lumineux, contraste fort avec le fond sombre)
+
+Accent success : #2ecc71 (vert clair, validation/OK)
+
+Accent warning : #f39c12 (orange, avertissements)
+
+Accent error : #e74c3c (rouge vif, erreurs critiques)
