@@ -10,6 +10,18 @@
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush x:Key="PrimaryBackground" Color="#04182B"/>
+            <SolidColorBrush x:Key="SecondaryBackground" Color="#0A2239"/>
+            <SolidColorBrush x:Key="Surface" Color="#132B45"/>
+            <SolidColorBrush x:Key="PrimaryText" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="SecondaryText" Color="#B0C4D4"/>
+            <SolidColorBrush x:Key="AccentRed" Color="#E63A1D"/>
+            <SolidColorBrush x:Key="AccentOrange" Color="#F86521"/>
+            <SolidColorBrush x:Key="AccentYellow" Color="#FE891A"/>
+            <SolidColorBrush x:Key="Success" Color="#2ECC71"/>
+            <SolidColorBrush x:Key="Warning" Color="#F39C12"/>
+            <SolidColorBrush x:Key="Error" Color="#E74C3C"/>
+            <SolidColorBrush x:Key="Info" Color="#3498DB"/>
             <!-- Other app resources here -->
         </ResourceDictionary>
     </Application.Resources>
